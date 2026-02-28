@@ -1,0 +1,111 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base */
+body {
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f5f7fa;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+/* Layout */
+header, main, footer {
+    max-width: 900px;
+    margin: auto;
+    padding: 24px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #111827, #1f2937);
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0 0 16px 16px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+header p {
+    margin-top: 6px;
+    font-size: 16px;
+    color: #9ca3af;
+}
+
+/* Sections */
+section {
+    background: #ffffff;
+    margin-bottom: 24px;
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* Titles */
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 6px;
+}
+
+article h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+/* Text */
+p {
+    font-size: 15px;
+    color: #374151;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin-top: 6px;
+    color: #2563eb;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Projects */
+article {
+    padding: 14px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+article:last-child {
+    border-bottom: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+}
